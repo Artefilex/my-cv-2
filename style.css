@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+body{
+   padding: 2rem;
+   margin: 1rem;
+}
+
+h1{ 
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    padding-bottom: 1rem;
+}
+h4{ 
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+p{
+    font-size: 1.4rem;
+}
+
+.about h4{
+    font-size: 25px;
+    margin-left: 1rem;
+}
+.about ul li {
+    margin-left: 3rem;
+    font-size: 20px;
+}
+.about ul li a{
+    text-decoration: none;
+}
+.paint{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  padding: 2rem;
+  margin: 2rem;
+  flex-grow: 1rem;
+}
+.paints{
+    max-width: 1120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.paints img{
+    width: 250px;
+    height: 350px;
+}
+
+.paints 
+#first,
+#second{
+    width: 516px;
+    height: 300px;
+}
+
+.paints #heart{
+    width: 1048px;
+    height: 1400px;
+}
+
